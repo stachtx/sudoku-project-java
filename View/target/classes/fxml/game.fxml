@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="596.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grupatp.controllers.GameController">
+   <children>
+      <Button fx:id="check" layoutX="46.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleButtonCheck" prefHeight="56.0" prefWidth="111.0" text="%game.check" />
+      <Button fx:id="back" layoutX="46.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleChangingScenes" prefHeight="56.0" prefWidth="111.0" text="%button.return" />
+      <Button fx:id="save" layoutX="46.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleButtonSave" prefHeight="56.0" prefWidth="111.0" text="%game.save" />
+      <Button fx:id="load" layoutX="46.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButtonLoad" prefHeight="56.0" prefWidth="111.0" text="%game.load" />
+      <GridPane fx:id="gridPane" layoutX="191.0" layoutY="63.0" prefHeight="442.0" prefWidth="534.0" />
+      <Label fx:id="label" alignment="CENTER" layoutX="46.0" layoutY="63.0" prefHeight="41.0" prefWidth="111.0" />
+   </children>
+</AnchorPane>

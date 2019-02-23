@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="grupatp.controllers.MenuController">
+   <children>
+      <Button layoutX="117.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleButtonEasy" prefHeight="48.0" prefWidth="147.0" text="%button.easy" />
+      <Button layoutX="117.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonMedium" prefHeight="48.0" prefWidth="147.0" text="%button.medium" />
+      <Button layoutX="117.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButtonHard" prefHeight="48.0" prefWidth="147.0" text="%button.hard" />
+      <Button fx:id="start" layoutX="119.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleChangingScenes" prefHeight="48.0" prefWidth="147.0" text="%button.start" />
+      <Button layoutX="27.0" layoutY="476.0" mnemonicParsing="false" onAction="#handleButtonPL" prefHeight="34.0" prefWidth="45.0" text="PL" />
+      <Button layoutX="80.0" layoutY="476.0" mnemonicParsing="false" onAction="#handleButtonEng" prefHeight="34.0" prefWidth="45.0" text="Eng" />
+      <Button fx:id="authors" layoutX="264.0" layoutY="476.0" mnemonicParsing="false" onAction="#handleChangingScenes" prefHeight="34.0" prefWidth="83.0" text="%button.authors" />
+      <Label alignment="CENTER" layoutX="66.0" layoutY="67.0" prefHeight="77.0" prefWidth="252.0" text="Sudoku" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
